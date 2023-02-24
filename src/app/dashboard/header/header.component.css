@@ -1,0 +1,14 @@
+.navbar{
+    background-color: purple;
+    color: #fff;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+    padding:4px;
+}
