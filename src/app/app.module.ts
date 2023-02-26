@@ -13,11 +13,11 @@ import { APP_BASE_HREF } from '@angular/common';
 const appRoutes: Routes = [
   {path: '',redirectTo: 'dashboard' ,pathMatch: 'full'},
 
-  {path:'dashboard',
+  {path: 'dashboard',
   children:[
-    {path:'',redirectTo:'dashboard',pathMatch:'full'},
-    {path:'about-us',component:AboutUsComponent}
-  ]
+    {path: '',redirectTo:'dashboard',pathMatch:'full'},
+    {path: 'about-us',component:AboutUsComponent}
+  ],
 }
 ]
 
