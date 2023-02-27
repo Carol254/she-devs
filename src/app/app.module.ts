@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -9,16 +10,20 @@ import { AboutUsComponent } from './dashboard/about-us/about-us.component';
 
 import { RouterModule,Routes } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
+import { HomeComponent } from './dashboard/home/home.component';
 
 const appRoutes: Routes = [
   {path: '',redirectTo: 'dashboard' ,pathMatch: 'full'},
 
   {path: 'dashboard',
   children:[
-    {path: '',redirectTo:'dashboard',pathMatch:'full'},
-    {path: 'about-us',component:AboutUsComponent}
+    {path: '',redirectTo:'home',pathMatch:'full'},
+    {path:'home',component:HomeComponent},
+    {path:'about-us',component:AboutUsComponent}
+
   ],
-}
+  },
+  
 ]
 
 @NgModule({
@@ -27,11 +32,13 @@ const appRoutes: Routes = [
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [
     {provide:APP_BASE_HREF,useValue:'/'}

@@ -12,8 +12,6 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  aboutUs(){
-    this.router.navigate(["dashboard/about-us"]);
-  }
+
 
 }
