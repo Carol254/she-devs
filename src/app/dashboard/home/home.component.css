@@ -11,3 +11,14 @@
     font-size: 30px;
     font-weight: bold;
 }
+.about-us{
+    font-weight: bold;
+    color: #fff;
+    background: purple;
+    border-radius: 15px;
+    font-family:"Inconsolata", sans-serif;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+
+}
