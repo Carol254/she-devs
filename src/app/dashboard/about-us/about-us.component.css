@@ -1,0 +1,11 @@
+.page-title{
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.content{
+    display: block;
+    margin: auto;
+    padding-left:40px;
+    padding-right:40px;
+}
