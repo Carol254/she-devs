@@ -11,6 +11,7 @@ import { AboutUsComponent } from './dashboard/about-us/about-us.component';
 import { RouterModule,Routes } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { HomeComponent } from './dashboard/home/home.component';
+import { OurServicesComponent } from './dashboard/our-services/our-services.component';
 
 const appRoutes: Routes = [
   {path: '',redirectTo: 'dashboard' ,pathMatch: 'full'},
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,
