@@ -20,7 +20,8 @@ const appRoutes: Routes = [
   children:[
     {path: '',redirectTo:'home',pathMatch:'full'},
     {path:'home',component:HomeComponent},
-    {path:'about-us',component:AboutUsComponent}
+    {path:'about-us',component:AboutUsComponent},
+    {path:'our-services',component:OurServicesComponent}
 
   ],
   },
