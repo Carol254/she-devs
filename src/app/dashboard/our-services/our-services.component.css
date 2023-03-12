@@ -106,7 +106,7 @@ color: #000;
 }
 
 .single_service-body p {
-font-size: 13px;
+font-size: 15px;
 line-height: 25px;
 }
 
@@ -129,5 +129,4 @@ position: relative;
 }
 #service .single_service:hover {
 background: plum none repeat scroll 0 0;
-color: #fff;
 }
