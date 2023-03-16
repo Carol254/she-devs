@@ -40,3 +40,10 @@
 .footer_2{
     font-weight: bold;
 }
+@media screen  and (max-width:600px){
+    .codeGirl{
+        width:200px;
+        height: 200px;
+        align-content: center;
+    }
+}
