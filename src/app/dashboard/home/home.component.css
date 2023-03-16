@@ -44,6 +44,7 @@
     .codeGirl{
         width:200px;
         height: 200px;
-        align-content: center;
+        margin: auto;
+        display: block;
     }
 }
