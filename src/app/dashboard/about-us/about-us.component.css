@@ -60,6 +60,17 @@ margin-bottom: 15px;
 margin-top: 20px;
 }
 
+.sec-title .title1{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    color: #9F2C75;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    }
+
 .sec-title h2{
 position: relative;
 display: block;
@@ -89,6 +100,7 @@ color: #848484;
 font-weight: 400;
 margin-top: 35px;
 }
+
 
 .sec-title.light h2{
 color: #ffffff;
@@ -296,4 +308,23 @@ transition: all 300ms ease;
 .about-section .image-column .video-link .link:hover{
 background-color: #191e34;
 color: #ffff;
+}
+@media screen  and (max-width:600px){
+    .sec-title .title{
+        margin-top: 75px;
+    }
+
+    .sec-title .title1{
+        margin-top: 65px;
+    }
+}
+
+@media screen  and (max-width:1200px){
+    .sec-title .title{
+        margin-top: 75px;
+    }
+
+    .sec-title .title1{
+        margin-top: 45px;
+    } 
 }
