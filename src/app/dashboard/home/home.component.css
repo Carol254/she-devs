@@ -52,4 +52,8 @@
         display: block;
         width: 35%;
     }
+    .services{
+        margin: auto;
+        display: block;
+    }
 }
