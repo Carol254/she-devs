@@ -56,4 +56,22 @@
         margin: auto;
         display: block;
     }
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+  
+
+}
+@media screen  and (max-width:300px){
+
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+
+    #ho_color{
+        margin: auto;
+        display: block;
+    }
 }
