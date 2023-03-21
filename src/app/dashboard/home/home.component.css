@@ -64,9 +64,26 @@
         text-align: center;
         display: block;
     }
+    .footer_1{
+        text-align: center;
+        display: block;
+    }
+    .social_icon{
+        margin: auto;
+       
+    }
 
 }
 @media screen  and (max-width:300px){
+    .social_icon{
+        margin: auto;
+       
+    }
+
+    .footer_1{
+        text-align: center;
+        display: block;
+    }
 
     .about-us-title{
         text-align: center;
