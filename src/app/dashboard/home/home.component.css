@@ -60,10 +60,18 @@
         margin: auto;
         display: block;
     }
-  
+    .about-us-title{
+        text-align: center;
+        display: block;
+    }
 
 }
 @media screen  and (max-width:300px){
+
+    .about-us-title{
+        text-align: center;
+        display: block;
+    }
 
     .service-image{
         margin: auto;
