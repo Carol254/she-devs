@@ -70,6 +70,7 @@
     }
     .social_icon{
         margin: auto;
+        display: inline;
        
     }
 
@@ -77,6 +78,7 @@
 @media screen  and (max-width:300px){
     .social_icon{
         margin: auto;
+        display: inline;
        
     }
 
