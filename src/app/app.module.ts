@@ -12,6 +12,7 @@ import { RouterModule,Routes } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { HomeComponent } from './dashboard/home/home.component';
 import { OurServicesComponent } from './dashboard/our-services/our-services.component';
+import { OurProgramsComponent } from './dashboard/our-programs/our-programs.component';
 
 const appRoutes: Routes = [
   {path: '',redirectTo: 'dashboard' ,pathMatch: 'full'},
@@ -21,8 +22,8 @@ const appRoutes: Routes = [
     {path: '',redirectTo:'home',pathMatch:'full'},
     {path:'home',component:HomeComponent},
     {path:'about-us',component:AboutUsComponent},
-    {path:'our-services',component:OurServicesComponent}
-
+    {path:'our-services',component:OurServicesComponent},
+    {path:'our-programs',component:OurProgramsComponent}
   ],
   },
   
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     FooterComponent,
     AboutUsComponent,
     HomeComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    OurProgramsComponent
   ],
   imports: [
     BrowserModule,
