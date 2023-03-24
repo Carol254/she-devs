@@ -5,6 +5,9 @@
 .nav-link{
     color: #fff !important;
 }
+nav ul li a:hover{
+    text-decoration: underline;
+} 
 .navbar-brand{
     width: 48px;
     height: 48px;
@@ -19,6 +22,7 @@
 .navbar-toggler-icon {
     background-image: url('/assets/menu.icon.svg');
 }
+
 
 @media screen  and (max-width:300px){
     .navbar-collapse {
