@@ -20,6 +20,11 @@ export class HeaderComponent implements OnInit {
         navbarCollapse.classList.add('show');
       }
     });
+
+
+    
   }
+
+
 
 }

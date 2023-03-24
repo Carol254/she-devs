@@ -40,6 +40,10 @@
 .footer_2{
     font-weight: bold;
 }
+.social_icon .bi{
+    color: #000;
+}
+
 @media screen  and (max-width:768px){
     .codeGirl{
         width:300px;

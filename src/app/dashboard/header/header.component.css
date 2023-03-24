@@ -11,3 +11,11 @@
     border-radius:50%;
     padding:4px;
 }
+.navbar-toggler{
+    background-color:#fff;
+    margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('/assets/menu.icon.svg');
+}
