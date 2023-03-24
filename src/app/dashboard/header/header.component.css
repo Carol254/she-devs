@@ -19,3 +19,40 @@
 .navbar-toggler-icon {
     background-image: url('/assets/menu.icon.svg');
 }
+
+@media screen  and (max-width:300px){
+    .navbar-collapse {
+        justify-content: center;
+      }
+      .navbar-nav {
+        width: 100%;
+        text-align: center;
+      }
+      .nav-item {
+        display: inline-block;
+      }
+}
+@media screen  and (max-width:600px){
+    .navbar-collapse {
+        justify-content: center;
+      }
+      .navbar-nav {
+        width: 100%;
+        text-align: center;
+      }
+      .nav-item {
+        display: inline-block;
+      }
+}
+@media screen  and (max-width:768px){
+    .navbar-collapse {
+        justify-content: center;
+      }
+      .navbar-nav {
+        width: 100%;
+        text-align: center;
+      }
+      .nav-item {
+        display: inline-block;
+      }
+}
