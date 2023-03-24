@@ -15,6 +15,9 @@ export class HomeComponent implements OnInit {
   aboutUs(){
     this.router.navigate(["dashboard/about-us"]);
   }
+  onPrograms(){
+    this.router.navigate(["dashboard/our-programs"]);
+  }
 
 
 }
