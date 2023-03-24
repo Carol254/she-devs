@@ -49,6 +49,14 @@
         width:300px;
         height:300px;
     }
+    #ho_color h3{
+        margin: auto;
+        display: block;
+    }
+    .services-title{
+        text-align: center;
+         display: block;
+     }
 }
 
 @media screen  and (max-width:600px){
@@ -84,6 +92,14 @@
         display: inline;
        
     }
+    #ho_color h3{
+        margin: auto;
+        display: block;
+    }
+    .services-title{
+        text-align: center;
+         display: block;
+     }
 
 }
 @media screen  and (max-width:300px){
@@ -110,6 +126,10 @@
 
     #ho_color{
         margin: auto;
+        display: block;
+    }
+    .services-title{
+       text-align: center;
         display: block;
     }
 }
