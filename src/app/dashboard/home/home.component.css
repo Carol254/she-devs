@@ -68,6 +68,11 @@
         display: block;
         width: 35%;
     }
+    .follow h6{
+        text-align: center;
+        display: block;
+        
+    }
 }
 
 @media screen  and (max-width:600px){
@@ -111,6 +116,11 @@
         text-align: center;
          display: block;
      }
+     .follow h6{
+        text-align: center;
+        display: block;
+        
+    }
 
 }
 @media screen  and (max-width:300px){
@@ -142,5 +152,10 @@
     .services-title{
        text-align: center;
        display: block;
+    }
+    .follow h6{
+        text-align: center;
+        display: block;
+        
     }
 }
