@@ -59,6 +59,15 @@
         text-align: center;
          display: block;
      }
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+    .about-btn{
+        margin: auto;
+        display: block;
+        width: 35%;
+    }
 }
 
 @media screen  and (max-width:600px){
