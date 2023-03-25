@@ -48,6 +48,8 @@
     .codeGirl{
         width:300px;
         height:300px;
+        margin: auto;
+        display: block;
     }
     #ho_color h3{
         margin: auto;
@@ -130,6 +132,6 @@
     }
     .services-title{
        text-align: center;
-        display: block;
+       display: block;
     }
 }
