@@ -73,6 +73,14 @@
         display: block;
         
     }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
+    }
 }
 
 @media screen  and (max-width:600px){
@@ -103,10 +111,13 @@
         text-align: center;
         display: block;
     }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
     .social_icon{
+        text-align: center;
         margin: auto;
-        display: inline;
-       
     }
     #ho_color h3{
         margin: auto;
@@ -119,21 +130,23 @@
      .follow h6{
         text-align: center;
         display: block;
-        
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
     }
 
 }
 @media screen  and (max-width:300px){
-    .social_icon{
-        margin: auto;
-        display: inline;
-       
-    }
-
     .footer_1{
         text-align: center;
         display: block;
     }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
+
 
     .about-us-title{
         text-align: center;
@@ -157,5 +170,13 @@
         text-align: center;
         display: block;
         
+    }
+    .social_icon{
+        text-align: center;
+        margin: auto;
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
     }
 }
