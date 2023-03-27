@@ -56,7 +56,7 @@
   }
   
   #about-us-section {
-    background: #0c4c91;
+    background: plum;
     width: 100%;
     height: 50%;
     display: flex;
@@ -160,7 +160,7 @@
   }
   
   .about-us-info h2 {
-    color: white;
+    color: #000;
     font-size: 40pt;
     text-align: right;
   }
@@ -172,7 +172,7 @@
   }
   
   .about-us-info p {
-    color: white;
+    color: #000;
     font-size: 14pt;
     text-align: right;
   }
