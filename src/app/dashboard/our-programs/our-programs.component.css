@@ -160,7 +160,7 @@
   }
   
   .about-us-info h2 {
-    color: #000;
+    color: purple;
     font-size: 40pt;
     text-align: right;
   }
@@ -184,8 +184,8 @@
   }
   
   .about-us-info a {
-    background-color: white;
-    color: #000;
+    background-color: purple;
+    color: #fff;
     width: 180px;
     text-align: center;
     padding: 15px 0px 15px 0px;
@@ -194,8 +194,8 @@
   }
   
   .about-us-info a:hover {
-    background: #404140;
-    color: white;
+    background: plum;
+    color: #000;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(10px);
   }
@@ -305,7 +305,7 @@
   }
   
   .history-info h2 {
-    color: #000;
+    color: purple;
     font-size: 40pt;
     text-align: left;
   }
@@ -329,8 +329,8 @@
   }
   
   .history-info a {
-    background-color: plum;
-    color: #000;
+    background-color: purple;
+    color: #fff;
     width: 180px;
     text-align: center;
     padding: 15px 0px 15px 0px;
@@ -339,8 +339,8 @@
   }
   
   .history-info a:hover {
-    background: #404140;
-    color: white;
+    background: plum;
+    color: #000;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(10px);
   }
