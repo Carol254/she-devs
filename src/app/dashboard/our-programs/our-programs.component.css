@@ -56,7 +56,7 @@
   }
   
   #about-us-section {
-    background: plum;
+    background: #fff;
     width: 100%;
     height: 50%;
     display: flex;
@@ -119,7 +119,7 @@
     .about-us-info {
       margin-right: 400px;
       width: 60%;
-      background: #0c4c9199;
+      background: #fff;
       padding: 0px 25px 0px 0px;
     }
   }
@@ -185,7 +185,7 @@
   
   .about-us-info a {
     background-color: white;
-    color: #0c4c91;
+    color: #000;
     width: 180px;
     text-align: center;
     padding: 15px 0px 15px 0px;
@@ -305,7 +305,7 @@
   }
   
   .history-info h2 {
-    color: #0c4c91;
+    color: #000;
     font-size: 40pt;
     text-align: left;
   }
@@ -317,7 +317,7 @@
   }
   
   .history-info p {
-    color: #0c4c91;
+    color: #000;
     font-size: 14pt;
     text-align: left;
   }
@@ -329,8 +329,8 @@
   }
   
   .history-info a {
-    background-color: #0c4c91;
-    color: white;
+    background-color: plum;
+    color: #000;
     width: 180px;
     text-align: center;
     padding: 15px 0px 15px 0px;
