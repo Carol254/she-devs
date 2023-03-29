@@ -8,6 +8,9 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
+  focus: any;
+  focus1: any;
+
   constructor(private router:Router) { }
 
   ngOnInit(): void {
