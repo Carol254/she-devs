@@ -191,6 +191,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
     }
 
 }
+.section {
+    padding: 70px 0;
+    position: relative;
+    background-color: #FFFFFF;
+  }
+
 .section-dark{
     background-color: #0b1011;
     color: #fff;
@@ -213,3 +219,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
   .landing-section .column {
     padding: 0 75px 0 25px;
   }
+  
+    .btn-round {
+    border-radius: 30px;
+    }
