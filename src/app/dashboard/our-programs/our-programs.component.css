@@ -1,6 +1,20 @@
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
-  font-weight: 300;
+body{
+  background-color: #00000;
+}
+/*not tslider */
+.fullcardslider .row.g-0 {
+background-color: #363636;
+color: red;
+}
+
+.fullcardslider .row.g-0 {
+max-width: 2000px;
+margin: auto;
+display: flex !important;
+align-items: center;
+}
+
+.fullcardslider .card {
+border-color: #363636;
+border: 0px;
 }
