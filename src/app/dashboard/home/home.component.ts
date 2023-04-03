@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+   
+
   aboutUs(){
     this.router.navigate(["dashboard/about-us"]);
   }
