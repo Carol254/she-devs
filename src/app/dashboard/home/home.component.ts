@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   focus: any;
   focus1: any;
 
-  emailAddress:any ='shedevs@gmail.com';
+  emailAddress:any ='shedevskenya@gmail.com';
 
   constructor(private router:Router) { }
 
