@@ -231,15 +231,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
     .btn-round {
     border-radius: 30px;
     }
-    .carousel-indicators button.thumbnail {
-    width: 100px;
+    .carousel-control-prev-icon{
+        background-color: purple;
+        border-radius: 50%;
     }
-    .carousel-indicators button.thumbnail:not(.active) {
-    opacity: 1;
+    .carousel-control-next-icon{
+        background-color: purple;
+        border-radius: 50%;
     }
-    .carousel-indicators {
-    position: static;
-    }
+   
     @media screen and (min-width: 992px) {
     .carousel {
         max-width: 40%;
