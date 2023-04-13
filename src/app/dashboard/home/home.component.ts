@@ -20,10 +20,10 @@ export class HomeComponent implements OnInit {
    
 
   aboutUs(){
-    this.router.navigate(["dashboard/about-us"]);
+    this.router.navigate(["/about-us"]);
   }
   onPrograms(){
-    this.router.navigate(["dashboard/our-programs"]);
+    this.router.navigate(["/our-programs"]);
   }
   sendMessage(){
     window.location.href = `mailto:${this.emailAddress}`;

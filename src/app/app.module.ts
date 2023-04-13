@@ -13,19 +13,15 @@ import { APP_BASE_HREF } from '@angular/common';
 import { HomeComponent } from './dashboard/home/home.component';
 import { OurServicesComponent } from './dashboard/our-services/our-services.component';
 import { OurProgramsComponent } from './dashboard/our-programs/our-programs.component';
+import { PageNotFoundComponent } from './dashboard/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
-  {path: '',redirectTo: 'dashboard' ,pathMatch: 'full'},
-
-  {path: 'dashboard',
-  children:[
-    {path: '',redirectTo:'home',pathMatch:'full'},
-    {path:'home',component:HomeComponent},
-    {path:'about-us',component:AboutUsComponent},
-    {path:'our-services',component:OurServicesComponent},
-    {path:'our-programs',component:OurProgramsComponent}
-  ],
-  },
+  {path: 'home', component:HomeComponent},
+  {path: 'about-us', component:AboutUsComponent},
+  {path: 'our-services', component:OurServicesComponent},
+  {path: 'our-programs', component:OurProgramsComponent},
+  {path: '',redirectTo: '/home' ,pathMatch: 'full'},
+  {path: '**', component: PageNotFoundComponent}
   
 ]
 
