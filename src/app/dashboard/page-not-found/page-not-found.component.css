@@ -30,14 +30,19 @@
     color: #fff!important;
     padding: 10px 20px;
     background:purple;
-    margin: 0px;
     display: inline-block;
     outline: none;
     border:none;
+    
 }
-.contant_box_404{ 
-    margin-top:25px;
+.contant_box_404{
+    margin-bottom:50px;
 }
 ._content{
     margin:0 auto;
 }
+@media (min-width: 768px) {
+    .contant_box_404{
+        margin-bottom: 40px;
+    }
+  }

@@ -14,12 +14,14 @@ import { HomeComponent } from './dashboard/home/home.component';
 import { OurServicesComponent } from './dashboard/our-services/our-services.component';
 import { OurProgramsComponent } from './dashboard/our-programs/our-programs.component';
 import { PageNotFoundComponent } from './dashboard/page-not-found/page-not-found.component';
+import { ContactUsComponent } from './dashboard/contact-us/contact-us.component';
 
 const appRoutes: Routes = [
   {path: 'home', component:HomeComponent},
   {path: 'about-us', component:AboutUsComponent},
   {path: 'our-services', component:OurServicesComponent},
   {path: 'our-programs', component:OurProgramsComponent},
+  {path: 'contact-us', component:ContactUsComponent},
   {path: '',redirectTo: '/home' ,pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}
   
@@ -34,7 +36,8 @@ const appRoutes: Routes = [
     AboutUsComponent,
     HomeComponent,
     OurServicesComponent,
-    OurProgramsComponent
+    OurProgramsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
