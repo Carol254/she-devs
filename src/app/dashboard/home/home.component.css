@@ -13,6 +13,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
     background-color: purple;
     color: #fff;
     border-radius: 15px;
+    outline: none;
 }
 .about-btn:hover{
     background-color: plum;
@@ -31,6 +32,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
     width: 200px;
     text-align: center;
 
+}
+.about-btn:focus{
+    border: none;
+    outline:none !important;
 }
 ._content{
   padding-top: 100px;

@@ -11,13 +11,14 @@ export class HomeComponent implements OnInit {
   focus: any;
   focus1: any;
 
-  emailAddress:any ='shedevskenya@gmail.com';
+ 
 
-  constructor(private router:Router) { }
+  constructor(private router:Router) {
+   }
 
   ngOnInit(): void {
+    
   }
-   
 
   aboutUs(){
     this.router.navigate(["/about-us"]);
@@ -25,9 +26,7 @@ export class HomeComponent implements OnInit {
   onPrograms(){
     this.router.navigate(["/our-programs"]);
   }
-  sendMessage(){
-    window.location.href = `mailto:${this.emailAddress}`;
-  }
+
 
 
 }
