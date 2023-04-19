@@ -13,7 +13,7 @@
 
 .four_zero_four_bg{
     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 400px;
+    height: 300px;
     background-position: center;
  }
  
@@ -32,17 +32,13 @@
     background:purple;
     display: inline-block;
     outline: none;
-    border:none;
-    
+    border:none; 
 }
-.contant_box_404{
-    margin-bottom:50px;
-}
+
 ._content{
-    margin:0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-@media (min-width: 768px) {
-    .contant_box_404{
-        margin-bottom: 40px;
-    }
-  }
+
