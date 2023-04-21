@@ -8,6 +8,7 @@
 nav ul li a:hover{
     background-color:plum;
     color: black !important;
+    border-radius: 5px;
 } 
 .navbar-brand{
     width: 48px;
