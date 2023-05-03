@@ -3,7 +3,7 @@
         <div class="row landing-section">
             <div class="col-md-8 mr-auto ml-auto">
                 <h2 class="text-center mb-5">Keep in touch?</h2>
-                <form [formGroup]="formData" (ngSubmit)="formData.value" class="contact-form">
+                <form [formGroup]="FormData" (ngSubmit)="FormData.value" class="contact-form">
                     <div class="row">
                         <div class="col-md-6">
                             <label>Name</label>
@@ -28,7 +28,7 @@
                     <textarea class="form-control" rows="4" formControlName="Message" name="Message" placeholder="Tell us your thoughts and feelings..."></textarea>
                     <div class="row">
                         <div class="col-md-4 mr-auto ml-auto">
-                            <a class="read_more btn about-btn mt-3" href="mailto:shedevskenya@gmail.com">Send Message</a>
+                            <button type="submit" [disabled]="!FormData.valid" class="read_more btn about-btn mt-3" href="mailto:shedevskenya@gmail.com">Send Message</button>
                         </div>
                     </div>
                 </form>

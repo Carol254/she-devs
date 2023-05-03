@@ -11,7 +11,7 @@ export class ContactUsComponent implements OnInit {
   focus: any;
   focus1: any;
 
-  formData!: FormGroup;
+  FormData!: FormGroup;
 
 
 
@@ -19,7 +19,7 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.formData = this.builder.group({
+    this.FormData = this.builder.group({
       Name:new FormControl('',[Validators.required]),
       Email:new FormControl('',[Validators.required,Validators.email]),
       Message:new FormControl('',[Validators.required]),
