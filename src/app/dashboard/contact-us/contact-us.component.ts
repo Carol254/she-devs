@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-contact-us',
@@ -10,11 +11,17 @@ export class ContactUsComponent implements OnInit {
   focus: any;
   focus1: any;
 
+  formData!: FormGroup;
 
 
-  constructor() { }
+
+  constructor(private builder:FormBuilder) { }
 
   ngOnInit(): void {
+
+    this.formData = this.builder.group({
+      
+    })
   }
 
 }

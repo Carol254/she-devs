@@ -3,7 +3,7 @@
         <div class="row landing-section">
             <div class="col-md-8 mr-auto ml-auto">
                 <h2 class="text-center mb-5">Keep in touch?</h2>
-                <form class="contact-form">
+                <form [formGroup]="formData" (ngSubmit)="formData.value" class="contact-form">
                     <div class="row">
                         <div class="col-md-6">
                             <label>Name</label>
@@ -11,7 +11,7 @@
                                 <div class="input-group-prepend">
                                   <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                <input type="text" class="form-control" placeholder="Name" formControlName="Name" name="Name" (focus)="focus=true" (blur)="focus=false" >
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -20,12 +20,12 @@
                                 <div class="input-group-prepend">
                                   <span class="input-group-text">  <i class="nc-icon nc-email-85"></i></span>
                                 </div>
-                                <input type="email" class="form-control" placeholder="Email" (focus)="focus1=true" (blur)="focus1=false" >
+                                <input type="email" class="form-control" formControlName="Email" name="Email" placeholder="Email" (focus)="focus1=true" (blur)="focus1=false" >
                             </div>
                         </div>
                     </div>
                     <label>Message</label>
-                    <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+                    <textarea class="form-control" rows="4" formControlName="Message" name="Message" placeholder="Tell us your thoughts and feelings..."></textarea>
                     <div class="row">
                         <div class="col-md-4 mr-auto ml-auto">
                             <a class="read_more btn about-btn mt-3" href="mailto:shedevskenya@gmail.com">Send Message</a>
